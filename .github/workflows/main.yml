@@ -27,7 +27,11 @@ jobs:
           npm install --no-save @capacitor/core@6 @capacitor/cli@6 @capacitor/android@6
 
       - name: Build game (static, offline)
-        run: npx vite build --config vite.mobile.config.ts
+        run: |
+          npx vite build --config vite.mobile.config.ts
+          mv dist-mobile/mobile/index.html dist-mobile/index.html
+          sed -i 's#\.\./assets/#./assets/#g' dist-mobile/index.html
+          ls -R dist-mobile | head -30
 
       - name: Create Android project and sync
         run: |
