@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Longshot",
+      "hasCanvas": false,
+      "bodyTextLen": 493,
+      "bodyTextHash": "a362df55147b0ab6a20934bb3a6e26a481972bdda7d93d2862afcc149d64c433",
+      "bodyTextPrefix": "FIELD MANUAL LONGSHOT Scope in, read the wind, hold your breath,",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/fit.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Longshot",
+      "hasCanvas": false,
+      "bodyTextLen": 493,
+      "bodyTextHash": "a362df55147b0ab6a20934bb3a6e26a481972bdda7d93d2862afcc149d64c433",
+      "bodyTextPrefix": "FIELD MANUAL LONGSHOT Scope in, read the wind, hold your breath,",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/fit-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/fit.json"
+}

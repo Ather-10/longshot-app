@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Longshot",
+      "hasCanvas": false,
+      "bodyTextLen": 485,
+      "bodyTextHash": "248162488c4e92509e99bf25406e65e1b143864056846aa5e8403be5c78e7080",
+      "bodyTextPrefix": "DOPE CARD · 7.62 LONGSHOT MUZZLE 820 m/s ZERO 100 m LANE 01 Zero",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/ui.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Longshot",
+      "hasCanvas": false,
+      "bodyTextLen": 459,
+      "bodyTextHash": "0b70318b70b2868ae26d1fd19a5e524448a596221d0e342039f4755b3bec0e79",
+      "bodyTextPrefix": "DOPE CARD · 7.62 LONGSHOT LANE 01 Zero the Rifle Camp Kestrel LA",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/ui-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/ui.json"
+}

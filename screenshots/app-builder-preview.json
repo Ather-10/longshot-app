@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Longshot",
+      "hasCanvas": false,
+      "bodyTextLen": 568,
+      "bodyTextHash": "0557b8a2ba76dde2068dcbdc18b7322bb46701f26f2dd1685df8414be337ce3c",
+      "bodyTextPrefix": "FIELD MANUAL LONGSHOT A bolt-action range. The round drops and t",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Longshot",
+      "hasCanvas": false,
+      "bodyTextLen": 568,
+      "bodyTextHash": "0557b8a2ba76dde2068dcbdc18b7322bb46701f26f2dd1685df8414be337ce3c",
+      "bodyTextPrefix": "FIELD MANUAL LONGSHOT A bolt-action range. The round drops and t",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
