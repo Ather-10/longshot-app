@@ -8,6 +8,42 @@
     />
     <meta name="theme-color" content="#121610" />
     <title>Longshot</title>
+    <script>
+      // Debug: show any error on screen (remove later)
+      (function () {
+        function show(msg) {
+          var d = document.getElementById("dbg");
+          if (!d) {
+            d = document.createElement("pre");
+            d.id = "dbg";
+            d.style.cssText =
+              "position:fixed;inset:0;z-index:99999;margin:0;padding:16px;overflow:auto;" +
+              "background:#300;color:#ffb4b4;font:12px/1.4 monospace;white-space:pre-wrap;";
+            (document.body || document.documentElement).appendChild(d);
+          }
+          d.textContent += msg + "\n\n";
+        }
+        window.__showErr = show;
+        window.addEventListener("error", function (e) {
+          var t = e.target;
+          if (t && t !== window && (t.src || t.href)) {
+            show("LOAD FAILED: " + (t.src || t.href));
+          } else {
+            show("ERROR: " + e.message + "\n" + (e.filename || "") + ":" + (e.lineno || ""));
+          }
+        }, true);
+        window.addEventListener("unhandledrejection", function (e) {
+          var r = e.reason;
+          show("PROMISE: " + (r && r.stack ? r.stack : String(r)));
+        });
+        setTimeout(function () {
+          var root = document.getElementById("root");
+          if (root && !root.children.length && !document.getElementById("dbg")) {
+            show("3 sec baad bhi #root khali hai (koi error nahi aaya)");
+          }
+        }, 3000);
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
